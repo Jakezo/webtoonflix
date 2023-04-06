@@ -51,6 +51,7 @@ class ApiService {
       for (var episodes in episodes) {
         episodesInstances.add(WebtoonEpisodeModel.fromJson(episodes));
       }
+      print(episodesInstances);
       return episodesInstances;
     }
     throw Error();
