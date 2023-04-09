@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text(
-          "Today's toons",
+          "Jake Toons",
           style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
         ),
         backgroundColor: Colors.white,
